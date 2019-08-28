@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 25%;
+    background-color: brown;
+    color: aliceblue;
+    letter-spacing: 1px;
+}
+.one {
+   
+    animation: inscription 3s linear infinite;
+}
+.two {
+    
+    animation: inscription 3s .2s linear infinite;
+}
+.three {
+   
+    animation: inscription 3s .3s linear infinite;
+}
+@keyframes inscription {
+    0% {
+        opacity: 0.4;
+    }
+    10% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 0.9;
+    }
+    30% {
+        opacity: 0.8;
+    }
+    40% {
+        opacity: 0.7;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    60% {
+        opacity: 0.5;
+    }
+    70% {
+        opacity: 0.4;
+    }
+    80% {
+        opacity: 0.3;
+    }
+    90% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 0.1;
+    }
+}
